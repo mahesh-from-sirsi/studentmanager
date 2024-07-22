@@ -1,4 +1,4 @@
-package com.mvs.studentmanager.student;
+package com.mvs.studentmanager.student.chapter1;
 
 import org.springframework.stereotype.Service;
 
@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 @Service
-public class StudentService {
+public class StudentService1 {
     public List<Student> findAllStudents() {
         return List.of(
                 new Student("Mahesh", "Shet", LocalDate.of(1974, 9, 26), "contact@maheshvshet.com", 50),

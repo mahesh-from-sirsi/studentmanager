@@ -1,4 +1,4 @@
-package com.mvs.studentmanager.student;
+package com.mvs.studentmanager.student.chapter1;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,10 +10,10 @@ import java.util.List;
 @RequestMapping("/api/v1/students2")
 public class StudentController2WithServiceAddedAsInstance {
 
-    private StudentService studentService = new StudentService();
+    private StudentService1 studentService1 = new StudentService1();
 
     @GetMapping
     public List<Student> findAllStudents() {
-        return studentService.findAllStudents();
+        return studentService1.findAllStudents();
     }
 }

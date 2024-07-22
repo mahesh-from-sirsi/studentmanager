@@ -1,4 +1,4 @@
-package com.mvs.studentmanager.student;
+package com.mvs.studentmanager.student.chapter1;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

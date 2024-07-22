@@ -1,4 +1,4 @@
-package com.mvs.studentmanager.student;
+package com.mvs.studentmanager.student.chapter1;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,10 +12,10 @@ import java.util.List;
 public class StudentController3_WithAutowired_At_FieldLevel_Injection {
 
     @Autowired
-    private StudentService studentService;
+    private StudentService1 studentService1;
 
     @GetMapping
     public List<Student> findAllStudents() {
-        return studentService.findAllStudents();
+        return studentService1.findAllStudents();
     }
 }
