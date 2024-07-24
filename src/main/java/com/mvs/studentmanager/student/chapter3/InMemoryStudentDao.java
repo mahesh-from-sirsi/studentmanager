@@ -1,4 +1,4 @@
-package com.mvs.studentmanager.student.chapter2;
+package com.mvs.studentmanager.student.chapter3;
 
 import org.springframework.stereotype.Repository;
 

@@ -4,11 +4,11 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class InMemoryStudentService implements StudentService {
+public class InMemoryStudentService_chapter2 implements StudentService {
 
-    private final InMemoryStudentDao dao;
+    private final InMemoryStudentDao_chapter2 dao;
 
-    public InMemoryStudentService(InMemoryStudentDao dao) {
+    public InMemoryStudentService_chapter2(InMemoryStudentDao_chapter2 dao) {
         this.dao = dao;
     }
 

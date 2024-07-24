@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/students")
-public class StudentController {
+@RequestMapping("/api/v1/students-chapter2")
+public class StudentController_chapter2 {
 
     private StudentService studentService;
 
 
-    public StudentController(StudentService studentService) {
+    public StudentController_chapter2(StudentService studentService) {
         this.studentService = studentService;
     }
 
